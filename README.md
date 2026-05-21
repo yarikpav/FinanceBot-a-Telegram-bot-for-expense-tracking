@@ -70,5 +70,16 @@ The project is integrated with Django for storing requests and managing the admi
 
 ---
 
+How to use requirements.txt
+1. Place the requirements.txt file in the project root directory.
+2. Install dependencies with a single command:
+   ```bash
+   pip install -r requirements.txt
+
+3. After that, you can run both Django and the bot without encountering errors related to missing libraries.
+
+
+---
+
 FinanceBot makes tracking expenses simple and convenient right in Telegram.
 Future plans include adding charts and integrating with banking API.
